@@ -1,4 +1,3 @@
-using Base.Test
 # basic booleans
 @test true
 @test !false
