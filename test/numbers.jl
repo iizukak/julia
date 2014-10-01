@@ -1768,6 +1768,8 @@ end
 @test !isprime(9223372036854775785)
 @test !isprime(9223372036854775787)
 
+@test !isprime(280671392065546467397265294532969672241810318954163887187279320454220348884327)
+
 @test !isprime(0xffffffffffffffc1)
 @test !isprime(0xffffffffffffffc3)
 @test  isprime(0xffffffffffffffc5)
