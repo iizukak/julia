@@ -80,6 +80,7 @@ function factor{T<:Integer}(n::T)
     h = (T=>Int)[]
     n == 1 && return h
     n <= 3 && (h[n] = 1; return h)
+    isprime(n) && (h[n] = 1; return h)
     local s::T, p::T
     s = isqrt(n)
     for p in PRIMES
